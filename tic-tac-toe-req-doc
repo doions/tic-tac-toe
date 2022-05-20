@@ -1,0 +1,8 @@
+four conditions to be written in code for winner decision
+
+1. Row complete - RowComplete 
+
+Login is to check
+2. Col Complete - ColComplete
+3. diagonal complete - diagonalComplete
+
