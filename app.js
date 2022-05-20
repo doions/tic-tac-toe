@@ -29,6 +29,7 @@ const move = (id) => {
         player2Move.push(item.dataset.coord.split(","))
 
     }
+    if (movenumber > 4) { movenumber % 2 ? winner(player1Move,"player1") : winner(player2Move,"player2") };
 
     //console.log("Player 1", player1Move);
     //console.log("Player 2", player2Move);
