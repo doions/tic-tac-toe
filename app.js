@@ -1,4 +1,4 @@
-let movenumber = 0;
+let movenumber = 0; //HELLO
 let player1Move = [];
 let player2Move = [];
 const cellid = new Set();
