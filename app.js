@@ -1,8 +1,14 @@
 let movenumber = 0;
 let player1Move = [];
 let player2Move = [];
-
+const cellid = new Set();
 const move = (id) => {
+    if(cellid.has(id)){
+        return
+    }
+    else{
+        cellid.add(id)
+    }
     movenumber++;
     const item = document.getElementById(id);
     let coordVal = document.createElement("span");
